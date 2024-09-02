@@ -5,11 +5,11 @@
 class Pathdebug < Formula
   desc ""
   homepage "https://github.com/d-led/pathdebug"
-  version "0.3.8"
+  version "0.3.9"
 
   on_macos do
-    url "https://github.com/d-led/pathdebug/releases/download/v0.3.8/pathdebug_Darwin_all.tar.gz"
-    sha256 "53738c88aca4efc353955a9ca613aff73d925315196bec40a03da1e9ebf7f93f"
+    url "https://github.com/d-led/pathdebug/releases/download/v0.3.9/pathdebug_Darwin_all.tar.gz"
+    sha256 "d8256aeb1de8477931750f673fab7877e805335d2e721c9f534cb50344deb352"
 
     def install
       bin.install "pathdebug"
@@ -19,8 +19,8 @@ class Pathdebug < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/d-led/pathdebug/releases/download/v0.3.8/pathdebug_Linux_x86_64.tar.gz"
-        sha256 "73ddff472372624c341614b7d9b9e768e58ab2aac33cdb62299a29fbba9d4650"
+        url "https://github.com/d-led/pathdebug/releases/download/v0.3.9/pathdebug_Linux_x86_64.tar.gz"
+        sha256 "2f5d85c1e9dfe69e14e1669301e0c40679bc7a1c5eb913ecf11f8cff37e2ee99"
 
         def install
           bin.install "pathdebug"
@@ -29,8 +29,8 @@ class Pathdebug < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/d-led/pathdebug/releases/download/v0.3.8/pathdebug_Linux_arm64.tar.gz"
-        sha256 "2324712048a2f2432c2782076a36bdde6d24066ab8d1cd3b9c0176af9067ed70"
+        url "https://github.com/d-led/pathdebug/releases/download/v0.3.9/pathdebug_Linux_arm64.tar.gz"
+        sha256 "3239775d52b6cd7ffd313ac65bbfb28b385596044fa8b9bc986154abe4050d6b"
 
         def install
           bin.install "pathdebug"
