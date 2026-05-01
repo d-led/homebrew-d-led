@@ -5,28 +5,28 @@
 class Commentray < Formula
   desc "Commentray — paired commentary markdown CLI (standalone binary)"
   homepage "https://github.com/d-led/commentray"
-  version "0.2.1"
+  version "0.3.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/d-led/commentray/releases/download/v#{version}/commentray-darwin-arm64"
-      sha256 "9b894bad9e494cecf3d22b7c8fad8184ef2edc646e67d6c30a74602db2058f3d"
+      sha256 "24b06261af2fe8d53483cce91ab0078acfd75f87cb0c2c04e160cc5a35bc86b0"
     end
     on_intel do
       url "https://github.com/d-led/commentray/releases/download/v#{version}/commentray-darwin-x64"
-      sha256 "9b90f2d3ada775b6127d9915205949e03d80db697bda747923722b7d5b6438d3"
+      sha256 "5ab08916b546b701615b84733c456d161b02b7e69aa42d098fec5abf495a7dc6"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/d-led/commentray/releases/download/v#{version}/commentray-linux-arm64"
-      sha256 "4743aeb1ca1dadcabdc5aa71189c8f8c7060a506f23f5e7a3978beeb91818f13"
+      sha256 "795eb9f97d7ca41b4128e9be218dd2cdc3db49e2c42b8517109307a5108b4a4a"
     end
     on_intel do
       url "https://github.com/d-led/commentray/releases/download/v#{version}/commentray-linux-x64"
-      sha256 "3b65936713f017c2202532981df2b4f3d5e8d6b64a5a02e2b699d497c7fc4d74"
+      sha256 "fc558931d7f1eb619ff4710d3ee43d739b87f8538f03e0cf48e13d0f4fc8a476"
     end
   end
 
