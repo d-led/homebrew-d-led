@@ -12,20 +12,20 @@ class ConsoleChess < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/d-led/console-chess/releases/download/v0.0.1/console-chess-0.0.1-macos-arm64.tar.gz"
-      sha256 "f3a461a637dc485b631c55ca4a031d528db1e319244f2d19abbb662e38c11979"
+      sha256 "f2dff59bc68b1f471aab7d778d8d685724785d4bf1da4c03615edf003d034f2c"
     else
       url "https://github.com/d-led/console-chess/releases/download/v0.0.1/console-chess-0.0.1-macos-x64.tar.gz"
-      sha256 "8eda79bf81155a73d3c8e9c500ebc0024440e525a30b9ce95810f6319820230a"
+      sha256 "b58ed16fdc02eb6383abf9af6d3b7e7e034e2cb7e074b0b17be98e45b824f7ba"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/d-led/console-chess/releases/download/v0.0.1/console-chess-0.0.1-linux-arm64.tar.gz"
-      sha256 "54f6d496bc80d11e14779275d7f5678d5b179e2df35dd5fb83665377a7168fa9"
+      sha256 "b5e2cb013a38f8f6245a8c1f8703dedd90ee2d5b6a324cec56268d7b6b44400b"
     else
       url "https://github.com/d-led/console-chess/releases/download/v0.0.1/console-chess-0.0.1-linux-x64.tar.gz"
-      sha256 "2846e1192e1d60f46544c67c209e7dca758604fb68b2c1dc86b1a2fc47b36582"
+      sha256 "70d1f7abe57dabf505360e91ac176f80c47988c4bee6ebfc8b0741806699ca7e"
     end
   end
 
