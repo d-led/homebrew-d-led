@@ -6,26 +6,26 @@
 class ConsoleChess < Formula
   desc "TUI chess in Java"
   homepage "https://github.com/d-led/console-chess"
-  version "0.0.1"
+  version "1.0.0"
   license "MPL-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/d-led/console-chess/releases/download/v0.0.1/console-chess-0.0.1-macos-arm64.tar.gz"
-      sha256 "f46859fbd8be6c7aa926197470fad72b12e3c2db915dac475367f6f1a3a086da"
+      url "https://github.com/d-led/console-chess/releases/download/v1.0.0/console-chess-1.0.0-macos-arm64.tar.gz"
+      sha256 "730917f371a5b882d3d6fc35d26a1d86237012955c9d3edc64678a59040a54ab"
     else
-      url "https://github.com/d-led/console-chess/releases/download/v0.0.1/console-chess-0.0.1-macos-x64.tar.gz"
-      sha256 "fcab980b7715f3892d7d5464b90385c3aebe0358052c6bd55cd2873301dc7803"
+      url "https://github.com/d-led/console-chess/releases/download/v1.0.0/console-chess-1.0.0-macos-x64.tar.gz"
+      sha256 "9e050f58b65f2de63a9bad1007a9d3f70e33de4c8b1dc79374a0e49ce857757b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/d-led/console-chess/releases/download/v0.0.1/console-chess-0.0.1-linux-arm64.tar.gz"
-      sha256 "d25264d2735906b33cbcf599b416550d44c7c1d98035b6b4ddeb1e103f1f4e48"
+      url "https://github.com/d-led/console-chess/releases/download/v1.0.0/console-chess-1.0.0-linux-arm64.tar.gz"
+      sha256 "df583ef99219fd4923a2e0e253ab44b50fe64e85cf9a5094423d190cf7a8af89"
     else
-      url "https://github.com/d-led/console-chess/releases/download/v0.0.1/console-chess-0.0.1-linux-x64.tar.gz"
-      sha256 "088553ace69a018012a1f9744f2e471fa8be44ba6d785ccb255392fc294e2ded"
+      url "https://github.com/d-led/console-chess/releases/download/v1.0.0/console-chess-1.0.0-linux-x64.tar.gz"
+      sha256 "925932322db90f37792ff055259f7e81f459fafbbcade2cc9f5802d5cc04ff67"
     end
   end
 
