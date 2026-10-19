@@ -12,20 +12,20 @@ class Yed2mermaid < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.0/yed2mermaid-0.1.0-macos-arm64.tar.gz"
-      sha256 "d44997c2afda7552216c98eaec8accafff4e0d2a7094d1f79632880a34dacccd"
+      sha256 "1403de2a5ab1ad4f5f0bd41dc3e6f0bf57d576fdec904f9fb84593ea512647b2"
     else
       url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.0/yed2mermaid-0.1.0-macos-x64.tar.gz"
-      sha256 "72b708c97443dc16b8f7f5789d4da2ef740a699d2ea17e028f64a7b40f5ee9c0"
+      sha256 "2a7f40203868a20a18fa1e56552e5e49ca19e28cea36d905189eee86ce41672c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.0/yed2mermaid-0.1.0-linux-arm64.tar.gz"
-      sha256 "38d0dcc7d4ef9b8328b188eacd68a645c77ea6f77cc9e4af678c37f02537281e"
+      sha256 "fac6f0cd1ff8f02e88fcbcbfa114d348ed1f4f185a7f2356f0bc960740f80b20"
     else
       url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.0/yed2mermaid-0.1.0-linux-x64.tar.gz"
-      sha256 "89c68e1a8fd2a33915562972c94e0d5ef71ed7904c7e4756a44d96e9462d864d"
+      sha256 "1c63933d70690731e3750093f7d4c66da67c13247f52d35acd1cde8f6bd30641"
     end
   end
 
