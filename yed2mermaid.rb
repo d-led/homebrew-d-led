@@ -6,26 +6,26 @@
 class Yed2mermaid < Formula
   desc "Convert yEd GraphML flowcharts to Mermaid"
   homepage "https://github.com/d-led/yed2mermaid"
-  version "0.1.0"
+  version "0.1.1"
   license "MPL-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.0/yed2mermaid-0.1.0-macos-arm64.tar.gz"
-      sha256 "2ee4807a98d56e495edf85f33cbee4f1495d16a8cdf95953cad1ee974ff26b3d"
+      url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.1/yed2mermaid-0.1.1-macos-arm64.tar.gz"
+      sha256 "2aef0705fbc65f5e7db537a28d70236aba3e8902278d79a766b430fe7f942ba6"
     else
-      url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.0/yed2mermaid-0.1.0-macos-x64.tar.gz"
-      sha256 "e494b53d8c5525e1f266010dc54a4d5b573402508ec906452810877c46a22be4"
+      url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.1/yed2mermaid-0.1.1-macos-x64.tar.gz"
+      sha256 "d2a54194c307dcacbebe2b0c23403197f3a19b7a2e805556c4620e6951a626de"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.0/yed2mermaid-0.1.0-linux-arm64.tar.gz"
-      sha256 "04c1b4710f221cf9772611a26386c7399ebc0affe64b7c2c3e94457618f81e1d"
+      url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.1/yed2mermaid-0.1.1-linux-arm64.tar.gz"
+      sha256 "12fb25da2c706938f784dc1d3f6bfdd9c8fc6711fec05298dd98352b023b6977"
     else
-      url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.0/yed2mermaid-0.1.0-linux-x64.tar.gz"
-      sha256 "1924571e745421b2374d344e2c3936789f67dd53687f316346f33419ef6bcbce"
+      url "https://github.com/d-led/yed2mermaid/releases/download/v0.1.1/yed2mermaid-0.1.1-linux-x64.tar.gz"
+      sha256 "188d6641e0eaa9f00cde75a62a9fc4ebcf2d0d9cef63e3bb7ccb9645a4136efa"
     end
   end
 
