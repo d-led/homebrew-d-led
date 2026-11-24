@@ -6,26 +6,26 @@
 class Worksheet < Formula
   desc "The working day in one line, on projects and on the topics inside them"
   homepage "https://github.com/d-led/worksheet.net"
-  version "0.2.3"
+  version "0.2.4"
   license "MPL-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/d-led/worksheet.net/releases/download/v0.2.3/worksheet-osx-arm64"
-      sha256 "90241f6932cc80e856b36b44630d12ecbfcc8463aa55a769f57a5a52a27f78d8"
+      url "https://github.com/d-led/worksheet.net/releases/download/v0.2.4/worksheet-osx-arm64"
+      sha256 "929ab906f2df1574783aeffcbfb42a08fc3c096a338874bf7f7c309584f0fee4"
     else
-      url "https://github.com/d-led/worksheet.net/releases/download/v0.2.3/worksheet-osx-x64"
-      sha256 "de6b9056b38b5954d11e18511907f748b7ae6ab19ac9e3dee89825e424bd3e67"
+      url "https://github.com/d-led/worksheet.net/releases/download/v0.2.4/worksheet-osx-x64"
+      sha256 "46200f51d127ae35cd5687b22643e92e00ad21ba24a9987cde09de6e5e71ce49"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/d-led/worksheet.net/releases/download/v0.2.3/worksheet-linux-arm64"
-      sha256 "96bda453d632a4b623175feceaf49e8915c5c2158cc2c0d23d4073f632831e8a"
+      url "https://github.com/d-led/worksheet.net/releases/download/v0.2.4/worksheet-linux-arm64"
+      sha256 "5b7dec93935a842991b1329a4d661e30a0bd8bae495e4c1758140da438ca5e8a"
     else
-      url "https://github.com/d-led/worksheet.net/releases/download/v0.2.3/worksheet-linux-x64"
-      sha256 "6aa6018661686e038820edb47b5f42fe2fa0620f55799c224475b5c9747ca8fa"
+      url "https://github.com/d-led/worksheet.net/releases/download/v0.2.4/worksheet-linux-x64"
+      sha256 "ea297bb22274f058fe055f6dc63a9ba280a18ff38f996a4644f8bb9156672900"
     end
   end
 
